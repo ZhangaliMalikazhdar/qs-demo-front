@@ -8,11 +8,26 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
     background-color: #F3F4F6;
+}
+
+.f-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.f-inter__medium {
+    font-weight: 500;
+}
+
+.f-inter__bold {
+    font-weight: bold;
+}
+
+.f-inter__light {
+    font-weight: lighter;
 }
 
 .ta-c {
@@ -47,8 +62,12 @@ html {
     float: right;
 }
 
-.header {
+.m-2 {
+    margin: 2em;
+}
 
+.p-1 {
+    padding: 1em;
 }
 
 /* login */
@@ -95,22 +114,6 @@ html {
     box-sizing: border-box; 
 }
 
-.f-inter {
-    font-family: 'Inter', sans-serif;
-}
-
-.f-inter__medium {
-    font-weight: 500;
-}
-
-.f-inter__bold {
-    font-weight: bold;
-}
-
-.f-inter__light {
-    font-weight: lighter;
-}
-
 .text-enter {
     font-size: 1.5em;
 }
@@ -128,4 +131,110 @@ html {
 
 .btn-enter:hover {
     background-color: #007bb5;
+}
+
+/* main */
+
+.main-f {
+    font-size: 1em;
+}
+
+.exit-icon {
+    padding: .5em 1em 0 0;
+}
+
+main {
+    margin: 1em;
+}
+
+.main-input {
+    height: 2em;
+    width: 21em;
+}
+
+.btn-find {
+    color: white;
+    background-color: #00A0E3;
+    border: none;
+    border-radius: 4px;
+    height: 2.3em;
+    width: 8em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-find:hover {
+    background-color: #007bb5;
+}
+
+.section-table {
+    margin-top: 2em;
+}
+
+table {
+    font-size: .5em;
+    margin-top: 1em;
+}
+
+th, td {
+    padding: .5em 1em;
+}
+
+th {
+    background-color: #00A0E3;
+    color: white;
+}
+
+th:first-child {
+    text-align: center;
+    border-radius: 4px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 4px 0 0;
+}
+
+td {
+    background-color: white;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 4px 0;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 4px;
+}
+
+th:not(:first-child) {
+    width:15em;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+/* main - pagination */
+
+.section-pagination {
+    position: fixed;
+    padding: 1em 0;
+    bottom: 0;
+}
+ 
+.pag-els span  {
+    font-size: .8em;
+    margin: 0 .5em 0 .5em;
+}
+
+.pag-els img {
+    height: 2em;
+    width: 2em;
+    margin: 0 0 -11px 0;
+    padding: 0 0 0 0;
+}
+
+.selected-pagination {
+    background-color: #00426912;
+    padding: .6em 1em;
 }
