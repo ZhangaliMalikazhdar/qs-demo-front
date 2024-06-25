@@ -1,0 +1,131 @@
+/* base */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/static/Inter-4.0/InterVariable.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #F3F4F6;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.t-sm {
+    font-size: .9em;
+}
+
+.t-danger{
+    color: red;
+}
+
+.bg-w {
+    background-color: #FFFFFF;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.ml-1 {
+    margin-left: 1em;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.header {
+
+}
+
+/* login */
+.login-center {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    padding: 5em 8em; 
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em; 
+    width: 100%;
+    min-width: 350px;
+}
+
+.input-group {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-group p {
+    margin: 0 0 0.5em 0;
+}
+
+.label-form {
+    width: 100%;
+    height: 4em;
+    padding: 1em 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.f-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.f-inter__medium {
+    font-weight: 500;
+}
+
+.f-inter__bold {
+    font-weight: bold;
+}
+
+.f-inter__light {
+    font-weight: lighter;
+}
+
+.text-enter {
+    font-size: 1.5em;
+}
+
+.btn-enter {
+    width: 100%;
+    color: white;
+    background-color: #00A0E3;
+    border: none;
+    border-radius: 4px;
+    padding: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-enter:hover {
+    background-color: #007bb5;
+}
